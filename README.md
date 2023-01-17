@@ -33,7 +33,7 @@ where, $n \sim \mathcal{N}(0, \sigma^2)$
 
 Here, we wish to learn $b_1$ and $b_2$.
 
-### Model for EKF
+### Process Model for EKF
 
 $$
 \dot{x} = 
@@ -46,6 +46,23 @@ x_4\\
 0
 \end{bmatrix}
 $$
+
+### Sensor Model for EKF:
+
+$$
+y = 
+\begin{bmatrix}
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{bmatrix}
+x
+$$
+
+here, we include the parameters $b_1$ and $b_2$, we wish to learn, as states of the system $x_5$ and $x_6$ 
 
 ## External Dependecies
 * Linux
