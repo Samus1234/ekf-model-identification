@@ -23,7 +23,20 @@ $$
 u
 $$
 
-Here, we wish to learn $b_1$
+### Sensor Model:
+
+$$
+y = I x + n
+$$
+
+where,
+$$
+n \sim \mathcal{N}(0, \sigma^2)
+$$
+
+Here, we wish to learn $b_1$ and $b_2$.
+
+
 
 ## External Dependecies
 * Linux
