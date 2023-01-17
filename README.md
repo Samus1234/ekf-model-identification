@@ -4,6 +4,8 @@
 
 ## Example setup and toy model
 
+# Process Model:
+
 $$
 \dot{x} = 
 \begin{bmatrix}
@@ -11,7 +13,14 @@ $$
 0 & 0 & 0 & 1\\
 0 & 0 & -b_1 & 0\\
 0 & 0 & 0 & -b_2
+\end{bmatrix} x +
+\begin{bmatrix}
+0 & 0\\
+0 & 0\\
+1 & 0\\
+0 & 1
 \end{bmatrix}
+u
 $$
 
 ## External Dependecies
