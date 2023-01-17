@@ -33,7 +33,7 @@ plt.grid()
 
 plt.tight_layout()
 
-plt.savefig("system_x_velocity.pdf")
+plt.savefig("system_x_velocity.png")
 
 plt.figure(figsize = (16, 9))
 
@@ -57,7 +57,7 @@ plt.grid()
 
 plt.tight_layout()
 
-plt.savefig("system_y_velocity.pdf")
+plt.savefig("system_y_velocity.png")
 
 plt.figure(figsize = (16, 9))
 
@@ -75,6 +75,8 @@ plt.xlabel(r"time (s)", fontsize = 30)
 
 plt.ylabel(r"viscous drag (1/s)", fontsize = 30)
 
+plt.legend(fontsize = 30)
+
 plt.xticks(fontsize = 25)
 
 plt.yticks(fontsize = 25)
@@ -83,7 +85,7 @@ plt.grid()
 
 plt.tight_layout()
 
-plt.savefig("identified_parameters.pdf")
+plt.savefig("parameter_identification.png")
 
 plt.show()
 
