@@ -74,7 +74,7 @@ Running the EKF with randomly initialized states gives the following results for
 
 And the following parameter estimates:
 
-![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/identified_parameters.png?raw=true)
+![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/parameter_identification.png?raw=true)
 
 ## External Dependecies
 * Linux
