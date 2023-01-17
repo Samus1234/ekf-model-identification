@@ -62,7 +62,15 @@ y =
 x
 $$
 
-here, we include the parameters $b_1$ and $b_2$, we wish to learn, as states of the system $x_5$ and $x_6$ 
+here, we include the parameters $b_1$ and $b_2$, we wish to learn, as states of the system $x_5$ and $x_6$.
+
+### Results
+
+Running the EKF with randomly initialized states gives the following results for x and y direction velocity states:
+
+![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/system_x_velocity.pdf?raw=true)
+
+![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/system_y_velocity.pdf?raw=true)
 
 ## External Dependecies
 * Linux
