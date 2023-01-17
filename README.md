@@ -4,7 +4,7 @@
 
 ## Example setup and toy model
 
-# Process Model:
+### Process Model:
 
 $$
 \dot{x} = 
@@ -22,6 +22,8 @@ $$
 \end{bmatrix}
 u
 $$
+
+Here, we wish to learn $$ b_1 \hbox{ and } b_2 $$
 
 ## External Dependecies
 * Linux
