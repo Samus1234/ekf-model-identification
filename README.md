@@ -68,9 +68,13 @@ here, we include the parameters $b_1$ and $b_2$, we wish to learn, as states of 
 
 Running the EKF with randomly initialized states gives the following results for x and y direction velocity states:
 
-![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/system_x_velocity.pdf?raw=true)
+![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/system_x_velocity.png?raw=true)
 
-![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/system_y_velocity.pdf?raw=true)
+![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/system_y_velocity.png?raw=true)
+
+And the following parameter estimates:
+
+![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/identified_parameters.png?raw=true)
 
 ## External Dependecies
 * Linux
