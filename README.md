@@ -26,14 +26,26 @@ $$
 ### Sensor Model:
 
 $$
-y = I x + n
+y = x + n
 $$
 
 where, $n \sim \mathcal{N}(0, \sigma^2)$
 
 Here, we wish to learn $b_1$ and $b_2$.
 
+### Model for EKF
 
+$$
+\dot{x} = 
+\begin{bmatrix}
+x_3\\
+x_4\\
+-x_5 x_3 + u_1\\
+-x_6 x_4 + u_2\\
+0\\
+0
+\end{bmatrix}
+$$
 
 ## External Dependecies
 * Linux
