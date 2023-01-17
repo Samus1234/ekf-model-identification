@@ -23,7 +23,7 @@ $$
 u
 $$
 
-Here, we wish to learn $ b_1 $ and $ b_2 $
+Here, we wish to learn $b_1$
 
 ## External Dependecies
 * Linux
