@@ -4,6 +4,12 @@
 
 ## Example setup and toy model
 
+$ \dot{x} = \begin{bmatrix} 0 & 0 & 1 & 0\\
+                            0 & 0 & 0 & 1\\
+                            0 & 0 & -b_1 & 0\\
+                            0 & 0 & 1 & -b_2\\
+\end{bmatrix} x + 
+$
 
 ## External Dependecies
 * Linux
