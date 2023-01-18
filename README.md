@@ -66,7 +66,7 @@ here, we include the parameters $b_1$ and $b_2$, we wish to learn, as states of 
 
 ### Results
 
-Running the EKF with randomly initialized states gives the following results for x ($x_3 = v_x$) and y ($x_4 = v_y$) direction velocity states:
+Running the EKF with randomly initialized states gives the following results for x $(x_3 = v_x)$ and y $(x_4 = v_y)$ direction velocity states:
 
 ![alt text](https://github.com/sidd-1234/ekf-model-identification/blob/main/system_x_velocity.png?raw=true)
 
